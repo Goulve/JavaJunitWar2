@@ -4,7 +4,7 @@ pipeline {
     stage('prepare') {
       agent any
       steps {
-        git(url: 'git@github.com:Goulve/JavaJunitWar2.git', branch: 'master')
+        git(url: 'https://github.com/Goulve/JavaJunitWar2.git', branch: 'master')
       }
     }
 
